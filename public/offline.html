@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>العماري لإدارة المرافق - أنت غير متصل بالإنترنت</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #3498db, #2ecc71);
+      color: white;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .offline-container {
+      max-width: 500px;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+    .offline-logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+      background-color: white;
+      border-radius: 50%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3498db;
+      font-weight: bold;
+      font-size: 36px;
+      margin: 0 auto 20px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: #3498db;
+      padding: 12px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background-color: #f1f1f1;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    .separator {
+      margin: 30px 0;
+      height: 2px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .ar {
+      direction: rtl;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="offline-container">
+    <div class="offline-logo">A</div>
+    
+    <div>
+      <h1>You're currently offline</h1>
+      <p>Please check your internet connection and try again.</p>
+      <a href="/" class="btn">Retry Connection</a>
+    </div>
+    
+    <div class="separator"></div>
+    
+    <div class="ar">
+      <h1>أنت غير متصل بالإنترنت حالياً</h1>
+      <p>يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.</p>
+      <a href="/" class="btn">إعادة المحاولة</a>
+    </div>
+  </div>
+</body>
+</html> 
